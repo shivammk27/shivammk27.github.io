@@ -31,7 +31,7 @@ params:
   author: Shivam
   homeInfoParams:
     Title: 👋 Welcome to my corner
-    Content: Hi, I am Shivam. I'm documenting things that I am learning to the best of my abilities. Currently, I am working on building AI systems at Paytm.
+    Content: Hi, I am Shivam. Currently, I am working on building AI systems at Paytm. Whatever I post here is my effort to improve the skill of writing technical things. I believe in hardwork, constant learning and gratitude.
 
   ShowShareButtons: false
   ShowReadingTime: true
