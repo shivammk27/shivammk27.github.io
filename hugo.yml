@@ -1,0 +1,54 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Shivam's Corner
+theme: PaperMod
+
+enableEmoji: true
+mainsections: ["posts", "papermod"]
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+menu:
+  main:
+    - name: Tags
+      url: tags/
+      weight: 10
+    - name: Search
+      url: search/
+      weight: 10
+    - name: Archive
+      url: archives
+      weight: 5
+    # - name: Projects
+    # url: projects
+    # weight: 10
+
+params:
+  author: Shivam
+  homeInfoParams:
+    Title: 👋 Welcome to my corner
+    Content: Hi, I am Shivam. I'm documenting things that I am learning to the best of my abilities. Currently, I am working on building AI systems at Paytm.
+
+  ShowShareButtons: false
+  ShowReadingTime: true
+  ShowPageNums: true
+  ShowToc: true
+  ShowCodeCopyButtons: true
+
+  socialIcons: # optional
+    - name: "github"
+      title: "Check work here"
+      url: "https://github.com/shivammk27"
+    - name: "linkedin"
+      title: "Connect on LinkedIn"
+      url: "https://www.linkedin.com/in/shivamkushwaha27/"
+    - name: "x"
+      title: "See me on Twitter"
+      url: "https://twitter.com/shivammk27"
+    - name: "Discord"
+      title: "Add me on discord"
+      url: "https://discordapp.com/users/718502908458565683"
