@@ -40,6 +40,9 @@ params:
   ShowCodeCopyButtons: true
 
   socialIcons: # optional
+    - name: "Notes"
+      title: "my random notes"
+      url: "https://shivammk27.github.io/notes/"
     - name: "github"
       title: "Check work here"
       url: "https://github.com/shivammk27"
