@@ -54,7 +54,7 @@ params:
       url: "https://discordapp.com/users/718502908458565683"
     - name: "Notes"
       title: "my random notes"
-      url: "https://shivammk27.github.io/notes/"
+      url: "https://shivammk27.github.io/note/"
     - name: "Leetcode"
       title: "My lc profile"
       url: "https://leetcode.com/u/shivamk27/"
