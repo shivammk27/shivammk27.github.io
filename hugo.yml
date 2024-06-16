@@ -30,9 +30,8 @@ menu:
 params:
   author: Shivam
   homeInfoParams:
-    Title: 👋 Welcome to my corner
-    Content: Hi, I am Shivam. Currently, I am working on building AI systems at Paytm. Whatever I post here is my effort to improve the skill of writing technical things. I believe in hardwork, constant learning and gratitude.
-
+    Title: 🌻 welcome to my corner
+    Content: Hi, I am Shivam. Currently, I am working in Central Data Science at Paytm. Whatever I post here is my effort to improve the skill of writing technical things. I believe in hardwork, constant learning and gratitude.
   ShowShareButtons: false
   ShowReadingTime: true
   ShowPageNums: true
@@ -40,21 +39,21 @@ params:
   ShowCodeCopyButtons: true
 
   socialIcons: # optional
-    - name: "github"
-      title: "Check work here"
-      url: "https://github.com/shivammk27"
-    - name: "linkedin"
-      title: "Connect on LinkedIn"
-      url: "https://www.linkedin.com/in/shivamkushwaha27/"
-    - name: "x"
-      title: "See me on Twitter"
-      url: "https://twitter.com/shivammk27"
-    - name: "Discord"
-      title: "Add me on discord"
-      url: "https://discordapp.com/users/718502908458565683"
     - name: "Notes"
       title: "my random notes"
       url: "https://shivammk27.github.io/note/"
+    - name: "github"
+      title: "Check work here"
+      url: "https://github.com/shivammk27"
+    - name: "x"
+      title: "See me on Twitter"
+      url: "https://twitter.com/shivammk27"
+    - name: "linkedin"
+      title: "Connect on LinkedIn"
+      url: "https://www.linkedin.com/in/shivamkushwaha27/"
+    - name: "Discord"
+      title: "Add me on discord"
+      url: "https://discordapp.com/users/718502908458565683"
     - name: "Leetcode"
       title: "My lc profile"
       url: "https://leetcode.com/u/shivamk27/"
