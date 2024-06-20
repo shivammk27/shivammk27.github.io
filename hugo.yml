@@ -1,7 +1,7 @@
 baseURL: https://example.org/
 languageCode: en-us
 title: Shivam's Corner
-theme: PaperMod
+theme: PaperModX
 
 enableEmoji: true
 mainsections: ["posts", "papermod"]
@@ -31,7 +31,13 @@ params:
   author: Shivam
   homeInfoParams:
     Title: 🌻 welcome to my corner
-    Content: Hi, I am Shivam. Currently, I am working in Central Data Science at Paytm. Whatever I post here is my effort to improve the skill of writing technical things. I believe in hardwork, constant learning and gratitude.
+    
+    Content: |
+      Hi, I am Shivam. Currently, I am working in Central Data Science at Paytm. Whatever I post here is my effort to improve the skill of writing technical things.   
+      - I believe in hardwork, constant learning and gratitude.
+      - Find my thoughts on random things on my [**Bear blog**](https://shivammk27.bearblog.dev/)
+
+      - I also post my raw notes on [**my notes site**](https://shivammk27.github.io/note/)
   ShowShareButtons: false
   ShowReadingTime: true
   ShowPageNums: true
@@ -39,13 +45,10 @@ params:
   ShowCodeCopyButtons: true
 
   socialIcons: # optional
-    - name: "Notes"
-      title: "my random notes"
-      url: "https://shivammk27.github.io/note/"
-    - name: "github"
+    - name: "github-simple"
       title: "Check work here"
       url: "https://github.com/shivammk27"
-    - name: "x"
+    - name: "twitter"
       title: "See me on Twitter"
       url: "https://twitter.com/shivammk27"
     - name: "linkedin"
@@ -54,6 +57,6 @@ params:
     - name: "Discord"
       title: "Add me on discord"
       url: "https://discordapp.com/users/718502908458565683"
-    - name: "Leetcode"
+    - name: "leetcode"
       title: "My lc profile"
       url: "https://leetcode.com/u/shivamk27/"
