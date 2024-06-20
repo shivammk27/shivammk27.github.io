@@ -28,7 +28,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          fetch-depth: 1
+          submodules: true # Fetch Hugo themes
 
       - name: Configure Pages
         id: pages
@@ -43,16 +43,14 @@ jobs:
       - name: Build
         run: |
           hugo \
-            --minify --verbose -D \
+            --minify \
             --buildFuture \
             --environment production \
-            --themesDir ../.. --theme hugo-PaperModX \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
-        working-directory: exampleSite
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./exampleSite/public
+          path: ./public
 
   # Deployment job
   deploy:
